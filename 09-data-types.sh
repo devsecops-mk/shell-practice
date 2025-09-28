@@ -12,7 +12,7 @@ echo "SUM of the numbers is : $SUM"
 
 # size = 3 Max index = 2
 
-LEADERS=("MODI" "PUTIN" "TRUDO")
+LEADERS=("MOHAN" "BHUVAN" "REVANSH")
 
 echo "All Leaders : ${LEADERS[@]}"
 
