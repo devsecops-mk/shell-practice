@@ -6,3 +6,5 @@ echo "Script name : $0"
 echo "Current directory : $PWD"
 echo " Who is running this : $USER"
 echo "Home directory of user : $HOME"
+sleep 50 &
+echo "Process ID of the last used command in background is : $!"
