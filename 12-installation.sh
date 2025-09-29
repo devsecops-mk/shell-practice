@@ -10,3 +10,11 @@ else
     echo "Running the script with ROOT preveliges...."
 fi
 
+dnf install mysql -y
+
+if [ $? -et 0 ]; then
+    echo "ERROR :: Installation of MySql is success ...."
+else
+    echo "FAILURE :: Instllation of MySql is failed ...."
+fi
+
