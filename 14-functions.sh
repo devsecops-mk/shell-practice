@@ -26,3 +26,6 @@ VALIDATE $? "Python3"
 
 dnf install zip -y
 VALIDATE $? "Zip"
+
+dnf install smb -y
+VALIDATE $? "smb"
